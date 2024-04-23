@@ -2,15 +2,30 @@
 ***************************************************
 
 ///Instalar CHOCOLATEY
+
 para la instalacion del react-native dejare los pasos a seguir
-*ir al enlace : https://chocolatey.org/install
-*entrar a powerSheel como administrador
-*ingresar el codigo para verificar nuestros permisos como administador : Get-ExecutionPolicy
-*si nuestro permiso esta bloqueado "RESTRICTED" cambiarlo a "ALLSIGNED" digitando : Set-ExecutionPolicy AllSigned
-*una vez cambiado los permisos en "ALLSIGNED" pegar el siguiente codigo y aceptar las opciones con Y ó S :
+***AVISO : debe tener tambien instalado el NODE para proceder con los pasos de la instalacion
+-ir al enlace : https://chocolatey.org/install
+
+-entrar a powerSheel como administrador
+
+-ingresar el codigo para verificar nuestros permisos como administador : Get-ExecutionPolicy
+
+-si nuestro permiso esta bloqueado "RESTRICTED" cambiarlo a "ALLSIGNED" digitando : Set-ExecutionPolicy AllSigned
+
+-una vez cambiado los permisos en "ALLSIGNED" pegar el siguiente codigo y aceptar las opciones con Y ó S :
 	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = 
 	[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient)
 	.DownloadString('https://community.chocolatey.org/install.ps1'))
-*para finalizar control+l para limpiar terminal y digitar : choco -? ó choco --version
-*el codigo digitado nos permitira ver si se instalo correctamente chocolatey en nuestro sistema operativo
+
+-para finalizar control+l para limpiar terminal y digitar : choco -? ó choco --version
+
+-el codigo digitado nos permitira ver si se instalo correctamente chocolatey en nuestro sistema operativo
+
+-cerrar powersheel e ir a cmd como administrador
+
+-pegar el codigo en cmd : choco install -y nodejs-lts microsoft-openjdk17
+
+-aceptar los terminos y se procedera con la instalacion y validacion del chocolatey
+
 	
