@@ -1,0 +1,16 @@
+	INSTALACION PARA REACT-NATIVE
+***************************************************
+
+///Instalar CHOCOLATEY
+para la instalacion del react-native dejare los pasos a seguir
+*ir al enlace : https://chocolatey.org/install
+*entrar a powerSheel como administrador
+*ingresar el codigo para verificar nuestros permisos como administador : Get-ExecutionPolicy
+*si nuestro permiso esta bloqueado "RESTRICTED" cambiarlo a "ALLSIGNED" digitando : Set-ExecutionPolicy AllSigned
+*una vez cambiado los permisos en "ALLSIGNED" pegar el siguiente codigo y aceptar las opciones con Y ó S :
+	Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = 
+	[System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient)
+	.DownloadString('https://community.chocolatey.org/install.ps1'))
+*para finalizar control+l para limpiar terminal y digitar : choco -? ó choco --version
+*el codigo digitado nos permitira ver si se instalo correctamente chocolatey en nuestro sistema operativo
+	
