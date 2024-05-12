@@ -29,4 +29,5 @@ para la instalacion del react-native dejare los pasos a seguir
 -aceptar los terminos y se procedera con la instalacion y validacion del chocolatey
 
 //Instalar ANDROID STUDIO (Jirafa)
+instalar desde la paguina
 	
